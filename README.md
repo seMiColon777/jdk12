@@ -6,7 +6,6 @@
 ```commandline
    sudo apt-get install build-essential  
 ```
-
 then I used the commandline below instead:
 ```commandline
    sudo apt-get install gcc-7  
@@ -29,4 +28,9 @@ then I used the commandline below instead:
 3. install another jdk
 ```commandline
    sudo apt-get install openjdk-11-jdk
+```
+4. compile the jdk12
+```commandline
+   bash configure --enable-debug --with-jvm-variants=server
+   make images
 ```
