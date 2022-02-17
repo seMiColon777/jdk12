@@ -6,7 +6,7 @@
 ```commandline
    sudo apt-get install build-essential  
 ```
-then I used the commandline below instead:
+   then I used the commandline below instead:
 ```commandline
    sudo apt-get install gcc-7  
    sudo apt-get install g++-7  
