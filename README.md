@@ -15,7 +15,6 @@
    sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-7 100  
    sudo update-alternatives --config g++  
 ```
-
 2. install other libs
 ```commandline
    sudo apt-get install libfreetype6-dev  
