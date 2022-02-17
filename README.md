@@ -2,12 +2,12 @@
 
 ### Prepare in Ubuntu
 1. install gcc  
-   I tried the commandline below in Ubuntu 20.04, it installed the gcc/g++ 9, which caused compile failed.  
+   I tried the commandline below in Ubuntu 20.04, it installed the gcc/g++ 9, which caused compile failed.
 ```commandline
    sudo apt-get install build-essential  
 ```
-   
-   then I used the commandline below instead:  
+
+then I used the commandline below instead:
 ```commandline
    sudo apt-get install gcc-7  
    sudo apt-get install g++-7  
@@ -17,7 +17,7 @@
    sudo update-alternatives --config g++  
 ```
 
-2. install other libs  
+2. install other libs
 ```commandline
    sudo apt-get install libfreetype6-dev  
    sudo apt-get install libcups2-dev  
